@@ -160,11 +160,11 @@
             wx.onMenuShareAppMessage({
                 title  : '浦江巨峰葡萄来啦！',
                 desc   : '史上性价比最高，欢迎团购',
-                imgUrl : __CDNPATH + '/data/share.png'
+                imgUrl : 'http://weiyabin.github.io/src/data/share.png'
             });
             wx.onMenuShareTimeline({
                 title  : '浦江巨峰葡萄来啦！',
-                imgUrl : __CDNPATH + '/data/share.png'
+                imgUrl : 'http://weiyabin.github.io/src/data/share.png'
             });
         });
 
