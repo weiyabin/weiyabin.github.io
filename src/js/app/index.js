@@ -158,12 +158,12 @@
 
         wx.ready(function() {
             wx.onMenuShareAppMessage({
-                title  : '我们结婚啦！',
-                desc   : '公元2015年5月30日 17时28分 紫金港国际饭店－紫金厅',
+                title  : '浦江巨峰葡萄来啦！',
+                desc   : '史上性价比最高，欢迎团购',
                 imgUrl : __CDNPATH + '/data/share.png'
             });
             wx.onMenuShareTimeline({
-                title  : '我们结婚啦！',
+                title  : '浦江巨峰葡萄来啦！',
                 imgUrl : __CDNPATH + '/data/share.png'
             });
         });
