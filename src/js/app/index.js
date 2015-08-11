@@ -158,12 +158,12 @@
 
         wx.ready(function() {
             wx.onMenuShareAppMessage({
-                title  : '浦江巨峰葡萄来啦！',
-                desc   : '史上性价比最高，欢迎团购',
+                title  : '好吃不贵 清凉一夏 | 原生态浦江巨峰葡萄来啦！',
+                desc   : '浦江巨峰葡萄带给你最新鲜的体验',
                 imgUrl : 'http://weiyabin.github.io/src/data/share.png'
             });
             wx.onMenuShareTimeline({
-                title  : '浦江巨峰葡萄来啦！',
+                title  : '好吃不贵 清凉一夏 | 原生态浦江巨峰葡萄来啦！',
                 imgUrl : 'http://weiyabin.github.io/src/data/share.png'
             });
         });
