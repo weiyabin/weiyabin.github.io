@@ -242,11 +242,10 @@ input {
   height: 545px;
   left: 50%;
   margin-left: -260px;
-  background: url(../img/code.jpg) 0px 0px no-repeat;
 }
 @media (max-height: 1020px) {
   .p7w3 {
-    top: 420px;
+    top: 480px;
   }
 }
 @media (min-height: 1020px) {
