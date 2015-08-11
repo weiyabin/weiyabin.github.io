@@ -103,12 +103,11 @@ input {
   position: absolute;
 }
 #content_wrapper .words {
-  width: 320px;
+  width: 450px;
+  height: 240px;
   left: 50%;
   bottom: 120px;
-  margin-left: -160px;
-  font-size: 48px;
-  color: #fff;
+  margin-left: -225px;
   -webkit-transition: all 2s 0.5s;
   opacity: 0;
   -webkit-transform: scale(0.8, 0.8) translateY(0px);
@@ -148,11 +147,20 @@ input {
 .page2 {
   background: url(../img/page-bg2.JPG) top center no-repeat;
 }
+.page2 .words {
+  background: url(../img/words2.png) no-repeat;
+}
 .page3 {
   background: url(../img/page-bg3.JPG) top center no-repeat;
 }
+.page3 .words {
+  background: url(../img/words3.png) no-repeat;
+}
 .page4 {
   background: url(../img/page-bg4.JPG) top center no-repeat;
+}
+.page4 .words {
+  background: url(../img/words4.png) no-repeat;
 }
 .page5 {
   background: url(../img/page-bg5.jpg) top center no-repeat;
@@ -164,11 +172,11 @@ input {
   background: #fff;
 }
 .p1w1 {
-  width: 356px;
-  height: 84px;
+  width: 450px;
+  height: 160px;
   left: 50%;
-  bottom: 465px;
-  margin-left: -178px;
+  bottom: 200px;
+  margin-left: -190px;
   background: url(../img/p1-w1.png) no-repeat;
 }
 .p1w2 {
@@ -188,20 +196,19 @@ input {
   background: url(../img/p1-w3.png) no-repeat;
 }
 .p7w1 {
-  width: 480px;
-  height: 400px;
+  width: 570px;
   left: 50%;
-  top: 160px;
-  margin-left: -240px;
+  top: 40px;
+  margin-left: -285px;
   font-size: 32px;
 }
 .p7w2 {
-  width: 268px;
-  height: 76px;
+  width: 620px;
+  height: 250px;
   left: 50%;
-  top: 350px;
-  margin-left: -134px;
-  font-size: 32px;
+  top: 160px;
+  margin-left: -310px;
+  background: url(../img/p7-w2.png) no-repeat;
 }
 @-webkit-keyframes heart {
   0% {
@@ -224,20 +231,21 @@ input {
   }
 }
 .p7w3 {
-  width: 480px;
-  height: 470px;
+  width: 570px;
+  height: 630px;
   left: 50%;
-  margin-left: -240px;
+  margin-left: -285px;
   font-size: 32px;
+  background: url(../img/code.jpg) 0px 55px no-repeat;
 }
 @media (max-height: 1020px) {
   .p7w3 {
-    top: 550px;
+    top: 420px;
   }
 }
 @media (min-height: 1020px) {
   .p7w3 {
-    bottom: 0;
+    bottom: 0px;
   }
 }
 #name {
